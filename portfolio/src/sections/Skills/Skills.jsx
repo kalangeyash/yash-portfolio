@@ -38,7 +38,7 @@ function Skills() {
         <SkillList src={htmlIcon} skillName={"HTML"}/>
         <SkillList src={cssIcon} skillName={"CSS"}/>
         <SkillList src={jsIcon} skillName={"JavaScript"}/>
-        {/* <SkillList src={tsIcon} skillName={"TypeScript"}/> */}
+        <SkillList src={tsIcon} skillName={"TypeScript"}/>
         <SkillList src={nodeIcon} skillName={"Node"}/>
       </div>
     <hr/>
@@ -53,21 +53,21 @@ function Skills() {
         <SkillList src={expressIcon} skillName={"ExpressJS"}/>
         <SkillList src={mongoIcon} skillName={"MongoDB"}/>
         <SkillList src={sqlIcon} skillName={"SQL"}/>
-        {/* <SkillList src={psqlIcon} skillName={"PostgreSQL"}/>
-        <SkillList src={prismaIcon} skillName={"Prisma"}/> */}
+        <SkillList src={psqlIcon} skillName={"PostgreSQL"}/>
+        <SkillList src={prismaIcon} skillName={"Prisma"}/>
       </div>
     <hr/>
     <div className={styles.skillList}>
         <SkillList src={gitIcon} skillName={"Git"}/>
         {/* <SkillList src={awsIcon} skillName={"AWS"}/> */}
         <SkillList src={azureIcon} skillName={"Azure"}/>
-        {/* <SkillList src={cloudflareIcon} skillName={"Cloudflare"}/> */}
+        <SkillList src={cloudflareIcon} skillName={"Cloudflare"}/>
         <SkillList src={linuxIcon} skillName={"Linux"}/>
         <SkillList src={postmanIcon} skillName={"Postman"}/>
         {/* <SkillList src={dockerIcon} skillName={"Docker"}/> */}
-        <SkillList src={discordIcon} skillName={"Dicord"}/>
+        {/* <SkillList src={discordIcon} skillName={"Dicord"}/>
         <SkillList src={notionIcon} skillName={"Notion"}/>
-        <SkillList src={vscodeIcon} skillName={"VS-Code"}/>
+        <SkillList src={vscodeIcon} skillName={"VS-Code"}/> */}
       </div>
       <hr/>
     </section>
