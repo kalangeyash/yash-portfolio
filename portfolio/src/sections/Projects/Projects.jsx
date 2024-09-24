@@ -12,7 +12,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
       <ProjectCard
         src ={Project3}
-        link="https://github.com/kalangeyash/sentinal-bank"
+        link="https://sentinal-bank-6ku5.vercel.app/"
         projectname= "Sentinal Bank"
         description="Banking website with transactions"
       />
