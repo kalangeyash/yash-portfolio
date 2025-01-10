@@ -1,5 +1,6 @@
 .conatiner{
     display :flex;
+    padding-left: 40px;
     justify-content: center;
     text-align: center;
     p{
@@ -7,6 +8,7 @@
         color: var(--footer-text-color);
         display:flex;
         justify-content: center;
+        padding-left: 20px;
 
     }
     
