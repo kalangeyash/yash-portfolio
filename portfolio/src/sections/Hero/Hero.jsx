@@ -9,7 +9,7 @@ import linkedinIconlight from "../../assets/icons/examples/linkedin-light.svg";
 import twitterIcondark from "../../assets/icons/examples/twitter-dark.svg";
 import githubIcondark from "../../assets/icons/examples/github-dark.svg";
 import linkedinIcondark from "../../assets/icons/examples/linkedin-dark.svg";
-import CV from '../../assets/YashResume.pdf'
+import CV from '../../assets/Yash_Kalange.pdf'
 import { ThemeProvider, useTheme } from "../../common/ThemeContext";
 
 function Hero() {
