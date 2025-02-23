@@ -5,6 +5,7 @@ import Project2 from "./../../assets/zerodha clone.png"
 import Project3 from '../../assets/Bank.png'
 import Project4 from '../../assets/pp.png'
 import Project5 from '../../assets/zx.png'
+import Project6 from '../../assets/devscanvas.png'
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -14,6 +15,12 @@ function Projects() {
       <div className={styles.projectsContainer}>
 
 
+      <ProjectCard
+        src ={Project6}
+        link="https://devs-canvas.vercel.app/"
+        projectname= "DevsCanvas"
+        description="DevsCanvas is a Collabrative Online Code Editor. Uses TypeScript, ExpressJS, ReactJS and Socket.io"
+      />
       <ProjectCard
         src ={Project5}
         link="https://zap-x.vercel.app/"
