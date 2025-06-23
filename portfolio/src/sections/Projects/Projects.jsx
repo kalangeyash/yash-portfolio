@@ -6,6 +6,8 @@ import Project3 from '../../assets/Bank.png'
 import Project4 from '../../assets/pp.png'
 import Project5 from '../../assets/zx.png'
 import Project6 from '../../assets/devscanvas.png'
+import Project7 from '../../assets/AIPlanner.avif'
+
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -15,6 +17,12 @@ function Projects() {
       <div className={styles.projectsContainer}>
 
 
+      <ProjectCard
+        src ={Project7}
+        link="https://project-planner-ten-mu.vercel.app/"
+        projectname= "AI-Based Software Application Planner"
+        description="A powerful web-based platform that helps developers plan their software projects using artificial intelligence. Generate comprehensive project plans, architecture diagrams, and detailed insights with ease."
+      />
       <ProjectCard
         src ={Project6}
         link="https://devs-canvas.vercel.app/"

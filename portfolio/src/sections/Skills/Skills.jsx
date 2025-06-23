@@ -45,7 +45,7 @@ function Skills() {
     <div className={styles.skillList}>
     <SkillList src={reactIcon} skillName={"React"}/>
     <SkillList src={tcssIcon} skillName={"Tailwind CSS"}/>
-    {/* <SkillList src={nextIcon} skillName={"NextJS"}/> */}
+    <SkillList src={nextIcon} skillName={"NextJS"}/>
     </div>
     <hr/>
     <div className={styles.skillList}>
@@ -59,7 +59,7 @@ function Skills() {
     <hr/>
     <div className={styles.skillList}>
         <SkillList src={gitIcon} skillName={"Git"}/>
-        {/* <SkillList src={awsIcon} skillName={"AWS"}/> */}
+        <SkillList src={awsIcon} skillName={"AWS"}/>
         <SkillList src={azureIcon} skillName={"Azure"}/>
         <SkillList src={cloudflareIcon} skillName={"Cloudflare"}/>
         <SkillList src={linuxIcon} skillName={"Linux"}/>

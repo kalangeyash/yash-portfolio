@@ -9,7 +9,7 @@ import linkedinIconlight from "../../assets/icons/examples/linkedin-light.svg";
 import twitterIcondark from "../../assets/icons/examples/twitter-dark.svg";
 import githubIcondark from "../../assets/icons/examples/github-dark.svg";
 import linkedinIcondark from "../../assets/icons/examples/linkedin-dark.svg";
-import CV from '../../assets/Yash_Kalange.pdf'
+import CV from '../../assets/YashKalange.pdf'
 import { ThemeProvider, useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -41,7 +41,7 @@ function Hero() {
             <img src={githubIcon} alt="git_icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/yash-kalange-1a7014270/"
+            href="https://www.linkedin.com/in/yash-kalange/"
             target="blank"
           >
             <img src={linkedinIcon} alt="linkedin_icon" />
